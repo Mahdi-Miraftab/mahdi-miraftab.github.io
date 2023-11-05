@@ -1,315 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahdi Miraftab</title>
+    <meta name="description" content="A description of your webpage.">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Mahdi Miraftab</h1>
+        <nav>
+            <ul>
+                <li><a href="#section10">Section 1</a></li>
+                <li><a href="#section2">Section 2</a></li>
+                <li><a href="#section3">Section 3</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="section10">
+            <h2>Section 1</h2>
+            <p>This is the content of Section </p>
+            <img src="Images/Profile_Picture.jpeg" alt="A beautiful image" class="my-profile-image">
+        </section>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146860420-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-146860420-1');
-</script>
-<!DOCTYPE HTML>
-<!--
-	Hamidreza Tavafoghi
--->
-<html>
-	<head>
-		<title>HHHHHH</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-		<link rel="stylesheet" href="assets\css\main.css">
-	</head>
-	<body class="is-preload">
-
-		<!-- Header -->
-			<section id="header">
-				<header>
-					<span class="image avatar"><img src="images\avatar.JPG" alt=""></span>
-					<h1 id="logo"><a href="#">Hamidreza Tavafoghi</a></h1>
-					<p>Postdoctoral Researcher<br>
-					 UC Berkeley</p>
-				</header>
-				<nav id="nav">
-					<ul>
-						<li><a href="#about", class="active">About</a></li>
-						<li><a href="#research">Research Interest</a></li>
-						<li><a href="#projects">Projects</a></li>
-						<li><a href="#publication">Publications</a></li>
-						<li><a href="#contact">Contact</a></li>
-					</ul>
-				</nav>
-				<footer>
-					<ul class="icons">
-						<li><a href="tavaf@berkeley.edu" class="icon fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-				</footer>
-			</section>
-
-		<!-- Wrapper -->
-			<div id="wrapper">
-
-				<!-- Main -->
-					<div id="main">
-
-						<!-- One -->
-							<section id="about">
-								<div class="image main" data-position="center">
-									<img src="images\banner.jpg" alt="">
-								</div>
-								<div class="container">
-									<header class="major">
-										<h3>About Me</h3>
-									</header>
-									<p><p>I am a postdoctoral researcher at the University of California, Berkeley working with <a href="https://people.eecs.berkeley.edu/~varaiya/"> Prof. Pravin Varaiya</a> and <a href="https://bcci.me.berkeley.edu/~poolla/"> Prof. Kameshwar Poolla </a>. 
-									I received my PhD in Electrical Engineering: Systems from the University of Michigan, Ann Arbor, in 2017, working with Prof. Demosthenis Tenekezis <a href= https://teneketzis.engin.umich.edu></a>. I received my MA in Economics in 2017 and my MSc in Electrical Engineering in 2013 the University of Michigan. I was a member of <a href="http://sustainability.umich.edu/dow"> Dow Sustainability Fellows program </a>from 2015 to 2017. I received my BSc in Electrical Engineering from Sharif University of Technology, Tehran, Iran, 2011.
-									Before that, I was a Silver medal </p>
-
-									<!-- <p> For more information please find my <a href="CV_Tavafoghi.pdf"> CV</a>.</p> -->
-									
-									
-									<h4> Education </h4>
-									&bullet; Ph.D., Electrical Engineering, University of Michigan, 2017 <br>
-									&bullet; M.A., Economics, University of Michigan, 2017 <br>
-									&bullet; M.Sc., Electrical Engineering, University of Michigan, 2013 <br>
-									&bullet; B.Sc., Electrical Engineering, Sharif University of Technology, 2011
-								</div>
-							</section>
-
-						<!-- Two -->
-							<section id="research">
-								<div class="container">
-									<h3>Research Interest</h3>
-									<p>My research interests lie in the intersection of stochastic control, reinforcement learning, data analytics, game theory, market and information design, transportation networks, and electrcitiy markets, and includes:</p>
-									<ul class="feature-icons">
-										<li class="fa-gears">Machine learning and data analysis in urban mobility and intelligent transportation systems</li>
-										<li class="fa-cubes">Decision making and learning in dynamic systems with partial and asymmetric information</li><br>
-										<li class="fa-cubes">Incentives and platform regulation in the gig economy</li>
-										<li class="fa-gears">Mechanism design for electricity markets and transporation platforms</li>
-									</ul>
-								</div>
-							</section>
-						
-						 							<section id="projects">
-								<div class="container">
-									<h3>Selected Projects</h3>
-									<p></p>
-									<div class="features">
-											<article>
-										<a href="#J5" class="image"><img src="images\Queue.png" alt="" width="300"></a>
-											<div class="inner">
-												<h4>Queue Length Estimation from Connected Vehicles<a href="#J5"> </a><br><font size="3">(joint with Jared Porter, Kameshwar Poolla, and Pravin Varaiya)</font> </h4>
-									           
-									           </div>
-											<p> <b>Summary:</b> We develop an estimation algorithm that enables us to estimate queue length at every leg of an intersection only using trace data from connected with penetration rate ~1%. We demosntrate the accuracy of our algorithm using real-world data and compare it to measurements done by physical sensors. Our proposed algorithm provide a novel approach to generate metrics needed for performance evaluation, optimization, and real-time operation of urban intersections. In contrast to the existing techniques to estimate queue length, our algorithm does not require physical hardware, provide full coverage of transportation network, and has negligible costs.   </em> <br>
-											<b>Related paper: [W8]</b></p>
-						
-										</article>
-									<article>
-										<a href="#J5" class="image"><img src="images\SPaT.png" alt="" width="180"></a>
-											<div class="inner">
-												<h4>Safety Assessments for Autonomous Vehicles in Urban Environemnts <a href="#J5"> </a><br><font size="3">(joint with Akhil Shetty, Mengqiao Yu, Alex Kurzhanskiy, Kameshwar Poolla, and Pravin Varaiya)</font> </h4>
-									           
-									           </div>
-											<p> <b>Summary:</b> It seems likely that widespread deployment of AVs will eliminate the large number of crashes caused by impaired, distracted or reckless drivers. However, it is unclear whether AVs will be able to avoid a significant fraction of the remaining crashes for which no driver is directly responsible. As such, deploying AVs without adequately assessing their safety capabilities might lead to an increase in crashes rather than a reduction. In this work, we discuss how an analysis of human crashes can provide insights about the types of crashes that remain challenging for AVs and the role of connected infrastructure in addressing them. We also discuss how human crashes and driving data can be valuable in inferring safety capabilities of AVs in diverse driving contexts. Based on these observations, we provide suggestions for policies and regulations governing the deployment of AVs. </em> <br>
-											<b>Related paper: [J7,W9,W10]</b></p>
-									
-										</article>
-
-										<article>
-										<a href="#J5" class="image"><img src="images\ridehailing.png" alt="" width="180"></a>
-											<div class="inner">
-												<h4>Regulation of Ride-Sharing Platforms <a href="#J5"> </a><br><font size="3">(joint with Akhil Shetty, Sen Li, Kameshwar Poolla, and Pravin Varaiya)</font> </h4>
-									           
-									           </div>
-											<p> <b>Summary:</b> We Develop an empirically calibrated model and investigate the effect of the recently implemented regulations in NewYork City and California on
-											platforms'revenue, prices, drivers' earnings, ridership, and congestion. We analyze how TNC operation is affected by recent regulationss due to two effects: (a) increase in driver wages due to minimum wage and  overtime compensation requirement; (b) loss of flexibility of driver working schedules. <br>
-											<b>Related paper: [J5,C9,W11]</b></p>
-									
-										</article>
-									<article>
-										<a href="#J5" class="image"><img src="images\parking.png" alt="" width="180"></a>
-											<div class="inner">
-												<h4>Parking Modeling & Prediction - a Queuing Approach <a href="#J5"> </a><br><font size="3">(joint with Kameshwar Poolla and Pravin Varaiya)</font> </h4>
-									           
-									           </div>
-											<p> <b>Summary:</b> We propose a queuing model with a non-homogeneous arrival rate and time-varying service time distribution to capture the parking dynamics. We verify all assumptions of
-											the model using statistical tests on real data, which provides empirical support for queuing models adopted in
-											many theoretical studies. We propose two prediction methods, a microscopic method for short forecast horizon
-											(~up to 2 hours), and a macroscopic method for long forecast horizons (~4 to 48 hours). We demonstrate that
-											our proposed methods outperform existing model-based and model-free methods proposed in the literature.</em> <br>
-											<b>Related paper: [W5]</b></p>
-						
-										</article>
-
-										<article>
-										<a href="#J5" class="image"><img src="images\infodesign.jpg" alt="" width="120"></a>
-											<div class="inner">
-												<h4>Information Design in Transportation Networks <a href="#J5"> </a><br><font size="3">(joint with Kameshwar Poolla, Akhil Shetty, Demosthenis Teneketzis, and Pravin Varaiya)</font> </h4>
-									           
-									           </div>
-											<p> <b>Summary:</b> We study the design of information platforms as an information
-											mechanism design problem. We show that a social planner can improve congestion by
-											providing either a public imperfect information signal about road conditions, or alternatively, coordinated
-											private route suggestions to each driver. We investigate how the structure of the optimal mechanism changes in a dynamic setting where drivers learn from their past experience. We then study competitive environments with for-profit platforms. We show that each platform finds it optimal to fully disclose its information for free. As such, we demonstrate that a competitive environment with multiple platforms can result in increased congestion compared to the outcome under a single information platform or in the absence of any information platforms. </em> <br>
-											<b>Related papers: [C8,C6,W2]</b></p>
-										</article>
-
-										<article>
-										<a href="#J5" class="image"><img src="images\multi-agent.png" alt="" width="132" ></a>
-											<div class="inner">
-												<h4>A Unified Approach to Dynamic Decision-Making in Multi-Agent POMDPs: Strategic and Non-Strategic Agents<a href="#J5"> </a><br><font size="3">(joint with Demosthenis Teneketzis, and Ouyang Yi)</font> </h4>
-									         
-									           </div>
-											<p> <b>Summary:</b> In multi-agent Markov decision problems with partial observations (multi-agent POMDPs), there is a circular dependency between agents' strategies and beliefs over time. The analysis of these problems is a challenging task as the computational complexity grows exponentially with the time and the number of agents. We develop a framework addressing these scalability and complexity challenges. We generalize the notion of information state in partially observable Markov Decision Processes (POMDP) to multi-agent POMDPs. Our framework unifies and generalizes various existing results in the literature from both control theory and game theory literature. Our results provide a reduction of (a) dynamic team problems with non-classical information structure to a sequence of static centralized problems, and (b) dynamic games with asymmetric information to a sequence of static games with symmetric information. </em> <br>
-											<b>Related papers: [W6,W4,J6,B1]</b></p>
-										</article>
-										<article>
-										<a href="#J5" class="image"><img src="images\RL.jpg" alt="" width="144"></a>
-											<div class="inner">
-												<h4>An Asymptotically Regret-Optimal Algorithm for Reinforcement Learning in POMDPs - a Sequential Hypothesis Testing Framework<a href="#J5"> </a><br><font size="3">(joint with Kameshwar Poolla, and Pravin Varaiya)</font> </h4>
-									         
-									           </div>
-											<p> <b>Summary:</b> We develop reinforcement learning algorithms with theoretical regret guarantees for both single-agent and multi-agent POMDPs with an average cost objective. Formulating the problem as a <i>sequential hypothesis testing</i>, we characterize a lower bound on the regret in a singe-agent POMDP. We explicitly quantify the trade-off between exploration and  exploitation, enabling us to design an (asymptotically) regret-optimal algorithm. The algorithm is compromised of a sequence of separate episodes for exploration and exploitation, the length of which are determined adaptively over time to ensure the optimal trade-off between exploration and exploitation. We further generalize our results to multi-agent POMDPs using the transformation framework we developed in [S6,S7]. In particular, to address the coordination issue between agents who have asymmetric partial information, we use the common information among the agents as the coordination device to adjust the length of the exploration and exploitation episodes. </em> <br>
-											<b>Related papers: [W3]</b></p>
-										</article>
-										<article>
-										<a href="#J5" class="image"><img src="images\electricity.png" alt="" width="180"></a>
-											<div class="inner">
-												<h4>Dynamic Market Design for Renewable Energy <a href="#J5"> </a><br><font size="3">(joint with Demosthenis Teneketzis)</font> </h4>
-									           
-									           </div>
-											<p> <b>Summary:</b> Unlike conventional resources in enrgy power systems, information about renewable generation and 
-											flexible loads arrives dynamically over time; for instance, the wind
-											generation depend on the real-time wind speed. Accordingly, we propose a class of <i>dynamic contracts </i>and <i>dynamic handicapped auctions</i> to procure renewable generation or demand flexibility by an aggregator. The dynamic nature of the mechanisms allow sellers to adjust their position in the market according to new information they individually acquire over time while enabling the aggregator to determine its forward commitment level to serve inflexible demand in advance.</em> <br>
-											<b>Related papers: [W1,J2,C3,C1]</b></p>
-						
-										</article>
-									<article>
-										<a href="#J5" class="image"><img src="images\security.png" alt="" width="180"></a>
-											<div class="inner">
-												<h4>Dynamic Resource Allocation and Incentive Mechanism for Security in Networks of Interdependent Agents <a href="#J5"> </a><br><font size="3">(joint with Farzaneh Farhadi, Jamal Golestani, and Demosthenis Teneketzis)</font> </h4>
-									           
-									           </div>
-											<p> <b>Summary:</b> We study the design of incentive mechanisms to improve security in a network of	interdependent agents. On one hand, the strategic behaviors of agents become more complex in a dynamic setting, as each agent can coordinate its decisions over time. On the other hand, a dynamic setting creates new opportunities for designing incentive mechanisms by exploiting the inter-temporal correlation of observations over time. Exploiting the inter-temporal correlation of agents' observations over time, we construct a set of inference signals about every agent's decision and information. We then construct incentive payments to internalize the effect of each agent on the overall network security level. Accordingly, we propose an incentive mechanism that is socially ecient, incentive compatible, and individually rational for all agents. Our results are in contrast to prior impossibility results which state that such effcient mechanisms do not exist for static settings.</em> <br>
-											<b>Related papers: [J4,C5]</b></p>
-									
-										</article>
-									</div>
-								</div>
-
-							</section> 
-
-						 
-
-							<section id="publication">
-								<div class="container">
-									<h3>Publications</h3>
-									<h4>Working/Submitted</h4>
-	<!--<p>[W5]  H. Tavafoghi, K. Poolla, and P. Varaiya, "Prediction of Phase Durations for SPaT Messages in Actuated and Coordinated Traffic Signals", <i> work in progress</i>, 2019.	</p> -->
-									<p> [W11] A. Shetty, S. Li, H. Tavafoghi, J. Qin, K. Poolla, and P. Varaiya. "Impact of Labor Regulations on Transportation Network Companies", <i> working paper </i>, 2020.	</p>
-
-									
-									<p> [W10] A. Shetty, H. Tavafoghi, A. Kurzhanskiy, K. Poolla, and P. Varaiya, "Risk Assessment of Autonomous Vehicles acrossDiverse Driving Contexts", <i> under review</i>,<a href="https://hamidtavaf.github.io/riskassessment.pdf"> (draft link)</a>, 2021. </p>
-
-									<p> [W9] A. Shetty, H. Tavafoghi, A. Kurzhanskiy, K. Poolla, and P. Varaiya, "Autonomous Vehicle Safety and Deployment:  Lessons from Human Crashes", <i> under review</i>,<a href="https://hamidtavaf.github.io/ITS21.pdf"> (draft link)</a>, 2021. </p>
-
-									<p> [W8] H. Tavafoghi, J. Porter, K. Poolla, and P. Varaiya, "Queue Length Estimation from Connected Vehicles with Low and Unknown Penetration Level", <i> under review</i>,<a href="https://hamidtavaf.github.io/queuing.pdf"> (draft link)</a>, 2021. </p>
-
-	
-									<p> [W7] D. Tang, H. Tavafoghi, V. Subramanian, A. Nayyar, and D. Teneketzis, "Private Information Compression in Dynamic Games among Teams", <i> under review</i> <a href="https://arxiv.org/abs/2102.11920"> (draft available)</a>, 2021.</p>
-								
-									<p> [W6] D. Tang, H. Tavafoghi, V. Subramanian, A. Nayyar, and D. Teneketzis, "Games of Teams with Delayed Internal Information Sharing: A Common Information Approach", <i> working paper</i> <a href="https://arxiv.org/abs/2102.11920"> (draft available)</a>, 2021.</p>
-
-									<p> [W5] H. Tavafoghi, K. Poolla, and P. Varaiya, "A Queuing Approach to Parking: Modeling, Verification, and Prediction", <i> working Paper</i> <a href="https://arxiv.org/pdf/1908.11479.pdf"> (draft available)</a>, 2020. </p>
-									
-
-									
-									<p> [W4] H. Tavafoghi, Y. Ouyang, and D. Teneketzis, "A Unified Approach to Dynamic Decision Problems with Asymmetric Information-Part II: Strategic Agents", <i>working paper </i> <a href="https://arxiv.org/abs/1812.01132"> (draft available) </a>, 2020.
-										
-	
-
-									<p>[W3]  H. Tavafoghi, K. Poolla, and P. Varaiya, "On Asymptotically Regret-Optimal Reinforcement Learning in Multi-Agent POMDPs", <i> working paper </i>, 2020.	</p>
-	
-									<p> [W2] H. Tavafoghi and D. Teneketzis, "Strategic Information Provision in Routing Games", <i> working paper</i>, <a href="https://hamidtavaf.github.io/infodesign_routing.pdf"> (draft link)</a>, 2018. </p>
-									
-									<p> [W1] H. Tavafoghi and D. Teneketzis, "Dynamic Market Mechanisms for Wind Energy",  <i> working paper</i>, <a href="https://arxiv.org/pdf/1608.04143.pdf"> (arXiv 1608:04143)</a>, 2017 . </p>
-	
-									
-									<br>
-									<h4> Journals</h4>
-									<p> [J7] A. Shetty, M. Yu, A. Kurzhanskiy, O. Grembek, H. Tavafoghi and P. Varaiya, "Safety Challenges for Autonomous Vehicles in the Absence of Connectivity", <i> to appear in Transportation Research: Part C</i>, <a href="https://hamidtavaf.github.io/safety.pdf"> (draft link)</a>, 2021. </p>
-
-									<p> [J6] <a href="https://arxiv.org/abs/1812.01130"> H. Tavafoghi, Y. Ouyang, and D. Teneketzis, "A Unified Approach to Dynamic Decision Problems with Asymmetric Information-Part I: Non-Strategic Agents", <i>accepted in IEEE Transations on Automatic Control</i>, 2021.</a>
-									<p> [J5] <a href="https://doi.org/10.1016/j.trb.2019.09.008"> S. Li, H. Tavafoghi, K. Poolla, and P. Varaiya, "Regulating TNCs: Should Uber and Lyft Set Their Own Rules?", <i> Transportation Research: Part B</i>, 2019. </a></p>
-									<p> [J4] <a href="https://link.springer.com/article/10.1007/s13235-018-0284-4"> F. Farhadi, H. Tavafoghi, D. Teneketzis, and J. Golestani, "An Efficient Dynamic Allocation Mechanism for Security in Networks of Interdependent Strategic Agents", <i>Dynamic Games and Applications, Springer</i>, 2018 </a>.
-									<p> [J3] <a href="http://ieeexplore.ieee.org/document/7438815/">Y. Ouyang, H. Tavafoghi, and D. Teneketzis, "Dynamic Games with Asymmetric Information: Common Information Based Perfect Bayesian Equilibria and Sequential Decomposition", <i>IEEE Transactions on Automatic Control</i>, 2017.</a></p>
-									<p> [J2] <a href="http://ieeexplore.ieee.org/document/7384715/">H. Tavafoghi and D. Teneketzis, "Multi-Dimensional Forward Contracts under Uncertainty for Electricity Markets" <i>IEEE Transactions on Control of Network Systems</i>, 2017.</a></p>
-
-									<p> [J1] <a href="http://dynamicsystems.asmedigitalcollection.asme.org/article.aspx?articleid=1674717"> H. Tavafoghi and M. Haeri, "On Exponential Flocking to the Virtual Leader in Network of Agents With Double-Integrator Dynamics" <i>Journal of Dynamic Systems, Measurement, and Control</i>, 2013. </a></p>
-									
-									
-									<h4> Conferences</h4>
-									<p> [C9] A. Shetty, S. Li, H. Tavafoghi, J. Qin, K. Poolla, and P. Varaiya. "Impact of Driver Classification Regulations on Transportation Network Companies", IEEE International Conference on Intelligent Transportation Systems, 2020 (Best Student Paper Award).</p>
-									
-									<p> [C8] <a href="allerton19_extended.pdf"> H. Tavafoghi, A. Shetty, K. Poolla, and P. Varaiya, "Strategic Information Platforms in Transportation Networks",  <i> 57th Annual Allerton Conference on Communication, Control, and Computing</i>, 2019. </a></p>
-									
-									<p> [C7] <a href="https://ieeexplore.ieee.org/iel7/8253908/8262705/08262885.pdf"> H. Tavafoghi, Y. Ouyang, and D. Teneketzis, "A Sufficient Information Approach to Decentralized Decision Making", <i>The 57th IEEE Conference on Decision and Control</i>, 2018.
-
-									
-									<p> [C6] <a href="https://ieeexplore.ieee.org/iel7/8253908/8262705/08262885.pdf"> H. Tavafoghi, D. Teneketzis,  "Informational Incentives for Congestion Games", <i>The 55th Annual Allerton Conference on Communication, Control, and Computing</i>, 2017. </a>
-
-									
-									<p> [C5] <a href="https://link.springer.com/chapter/10.1007%2F978-3-319-67540-4_8"> F. Farhadi, H. Tavafoghi, D. Teneketzis, "Dynamic Incentives for Security in Networks of Interdependent Agents",  <i>7th EAI International Conference on Game Theory for Networks (GameNets)</i>, 2017. </a></p> 
-
-									
-									<p> [C4] <a href="http://ieeexplore.ieee.org/abstract/document/7799348/"> H. Tavafoghi, Y. Ouyang, D. Teneketzis, "On Dynamic Games with Delayed Sharing Information Structure", <i>The 55th IEEE Conference on Decision and Control </i>, 2016.</a></p>
-
-									<p> [C3] <a href="https://dl.acm.org/citation.cfm?doid=2847220.2847247"> H.Tavafoghi, D. Teneketzis, "Sequential Contracts for Uncertain Electricity Resources" <i>The 10th Workshop on the Economics of Networks, Systems and Computation (NetEcon)</i>, 2015.</a></p>			
-
-									<p> [C2] <a href="https://ieeexplore.ieee.org/iel7/7396016/7402066/07403139.pdf">Y. Ouyang, H. Tavafoghi, and D. Teneketzis, "Dynamic Oligopoly Games with Private Markovian Dynamics"<i> The 54th IEEE Conference on Decision and Control </i>, 2015.</a></p>
-
-									<p> [C1] <a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7028436"> H. Tavafoghi and D. Teneketzis, "Optimal Contract Design for Energy Procurement" <i>The 52th Annual Allerton Conference on Communication, Control, and Computing</i>, 2014. </a></p>
-
-									<h4>Book Chapter</h4>
-									<p>	[B1] <a href="https://link.springer.com/chapter/10.1007/978-3-030-30719-6_3"> H. Tavafoghi, Y. Ouyang, D. Teneketzis, and M. Wellman, "Game Theoretic Approaches to Cyber Security: Issues and Challenges" in <i> Adversarial and Uncertain Reasoning for Adaptive Cyber Defense</i> (editor: Sushil Jajodia), Springer, 2019. </a></p>
-										
-									<h4>Thesis</h4>
-									<p><a href="https://deepblue.lib.umich.edu/handle/2027.42/140850"> H. Tavafoghi, "On Analysis and Design of Cyber-physical Systems with Strategic Agents", <i>Ph.D. Dissertation, University of Michigan</i>, September 2017. </a>	</p>
-
-
-								</div>
-							</section>
-
-						<!-- Four -->
-							<section id="contact">
-								<div class="container">
-									<h3>Contact Me</h3>
-									<p>tavaf (at) berkeley (dot) edu</p>												
-											</div>
-										</section>
-								</div>
-				</div>
-
-	
-				<!-- Footer -->
-					<section id="footer">
-						<div class="container">
-							<ul class="copyright">
-								<li>Last updated: October 1, 2019.</li>
-							</ul>
-						</div>
-					</section>
-
-			
-
-		<!-- Scripts -->
-			<script src="assets\js\jquery.min.js"></script>
-			<script src="assets\js\jquery.scrollex.min.js"></script>
-			<script src="assets\js\jquery.scrolly.min.js"></script>
-			<script src="assets\js\browser.min.js"></script>
-			<script src="assets\js\breakpoints.min.js"></script>
-			<script src="assets\js\util.js"></script>
-			<script src="assets\js\main.js"></script>
-
-	</body>
+        
+        <section id="section2">
+            <h2>Section 2</h2>
+            <p>This is the content of Section 2.</p>
+        </section>
+        
+        <section id="section3">
+            <h2>Section 3</h2>
+            <p>This is the content of Section 3.</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Your Website Name. All rights reserved.</p>
+    </footer>
+</body>
 </html>
